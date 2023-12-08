@@ -10,10 +10,10 @@ function main()
     clc; clear;
 
     % Main Area for Input
-    f = @(x) x^2 - 2 * x - 1;
+    f = @(x) x^4 - 2 * x^2 - 4;
 
-    p_sub_0 = 2.6;
-    p_sub_1 = 2.5;
+    p_sub_0 = 2;
+    p_sub_1 = 3;
     TOL = 0;
     N = 13;
 
